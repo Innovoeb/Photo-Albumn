@@ -1,0 +1,169 @@
+html {
+  box-sizing:border-box;
+}
+
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+
+body {
+  background-color: #5091ed;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#mainpage {
+  height: 1200px;
+  margin: 0 10%;
+
+}
+
+#myalbumns {
+  font-size: 80px;
+}
+
+#albumns-header {
+  border: 5px solid black;
+  background-color: black;
+  color: white;
+  height: 180px;
+  text-align: center;
+}
+
+#albumns-render {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.albumns {
+  border: 3px solid white;
+  text-align: center;
+  height: 430px;
+  margin-top: 30px;
+}
+
+/* #albumn-1 {
+  position: relative;
+  left: 100px;
+}
+
+#albumn-2 {
+  position: relative;
+  left: 300px;
+}
+
+#albumn-3 {
+  position: relative;
+  top: 500px;
+  left: -5px;
+}
+
+#albumn-4 {
+  position: relative;
+  left: 200px;
+}
+
+#albumn-5 {
+  position: relative;
+  top: 500px;
+  left: -106px;
+}
+
+#albumn-6 {
+  position: relative;
+  top: 70px;
+  left: 100px;
+}*/
+
+#albumnspage {
+  height: 1200px;
+  margin: 0 10%;
+
+}
+
+#albumns-view-header {
+  border: 5px solid black;
+  background-color: black;
+  color: white;
+  height: 180px;
+  text-align: center;
+}
+
+#albumnname {
+  font-size: 80px;
+}
+
+#sidebar {
+  border: 3px solid white;
+  float: left;
+  width: 300px;
+  height: 1017px;
+  border-top: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-links {
+  font-size: 50px;
+}
+
+#render-2 {
+  float: right;
+  width: 1230px;
+  height: 1018px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+#imagepage {
+  height: 1200px;
+  margin: 0 10%;
+}
+
+#image-header {
+  border: 5px solid black;
+  background-color: black;
+  color: white;
+  height: 180px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+#imagename {
+  font-size: 80px;
+}
+
+#render3 {
+  border: 3px solid white;
+    width: 1152px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.direction-buttons {
+  font-size: 50px;
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  outline: none;
+}
+
+.center{
+  display: flex;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+}

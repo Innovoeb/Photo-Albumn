@@ -1,0 +1,50 @@
+{
+  "albums": [
+
+      {
+        "name": "Kimberly Johansson",
+        "year-released": "",
+        "img": "https://66.media.tumblr.com/5ee22df8de34b7a07b676c0427503a01/tumblr_pnhtacIkd81qzxiau_1280.jpg",
+        "id": 1,
+        "gallery":{
+          "pic1": "https://66.media.tumblr.com/2cca445b43527c72bf15d70018655cc6/tumblr_pis5ti3rLl1qfszqg_500.jpg",
+          "pic2": "",
+          "pic3": ""
+        }
+      }
+
+      {
+        "name": "Selenaxo",
+        "year-released": "",
+        "img": "https://scontent-iad3-1.cdninstagram.com/vp/1cb4fad641f8790526e1c9bfc4e24e09/5D2F5350/t51.2885-15/e35/54511429_727490921014976_1560863081553390340_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com",
+        "id": 2
+      }
+
+      {
+        "name": "Carmen King",
+        "year-released": "",
+        "img": "https://scontent-sjc3-1.cdninstagram.com/vp/29fe730781044bb5d74fd8bffd866ebb/5D2D7D5C/t51.2885-15/e35/50506554_384022188830399_280661839992286682_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&se=7",
+        "id": 3
+      }
+      {
+        "name": "619LingLing",
+        "year-released": "",
+        "img": "https://scontent-sjc3-1.cdninstagram.com/vp/21134bc35bf7a7895043e8c5d604a355/5D4ADC29/t51.2885-15/e35/50515166_300609033936636_4569688718491666279_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
+        "id": 4
+      }
+      {
+        "name": "jada-amor",
+        "year-released": "",
+        "img": "https://scontent-iad3-1.cdninstagram.com/vp/8dfad3ef0528e05ff47c33764a296589/5D369F64/t51.2885-15/e35/56194268_852281815111325_1874222346428368394_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com",
+        "id": 5
+      }
+      {
+        "name": "brittney renner",
+        "year-released": "",
+        "img": "https://scontent-sjc3-1.cdninstagram.com/vp/cfad111950bea94c8b52872455f75903/5D36FBE5/t51.2885-15/e35/52845393_124293365308435_4071261470854530485_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
+        "id": 6
+      }
+  ]
+
+
+}
