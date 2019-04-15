@@ -4,6 +4,23 @@ import {Route} from "react-router-dom";
 
 
 class PicName extends Component {
+
+  state = {
+    albums: []
+  }
+
+  componentDidMount() {
+    axios.get('http://localhost:3001/albums').then(resp => {
+      {console.log(resp.data)}
+
+      this.setState({
+        albums: resp.data
+      })
+    })
+  }
+
+
+
   render() {
     return (
       <div id="imagepage">
@@ -15,7 +32,12 @@ class PicName extends Component {
         <div id="render3">
 
           <button id="go-left" className="direction-buttons">&#8678;</button>
-          <img src="https://place-hold.it/694/900"/>
+          {this.state.albums.map(albumn => (
+
+            <img id="large" src={albumn.gallery.pic1} />
+
+          ))}
+
           <button id="go-right" className="direction-buttons">&#8680;</button>
         </div>
 

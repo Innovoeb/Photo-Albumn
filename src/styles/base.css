@@ -167,3 +167,8 @@ img {
   height: 400px;
   width: 400px;
 }
+
+#large {
+  height: 600px;
+  width: 600px;
+}

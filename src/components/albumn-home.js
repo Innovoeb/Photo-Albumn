@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import {Route} from "react-router-dom";
+import { Link } from 'react-router-dom';
+import AlbumnName from "./albumn-name";
 
 
 
@@ -24,24 +26,30 @@ class AlbumnHome extends Component {
 
 
 
+
+
   render() {
     return (
       <div id="mainpage">
 
         <div id="albumns-header">
+
           <h1 id="myalbumns">My Albumns</h1>
+
+
         </div>
 
         <div id="albumns-render">
           {this.state.albums.map(album =>(
-            <div id={album.id} className="albums">
+            <Link to={`/albumn:${album.id}`}><div id={album.id} className="albums">
               <img src={album.img} />
               <p>{album.name}</p>
             </div>
+            </Link>
           ))}
         </div>
 
-
+        // <Route path="/albumn:id" exact component={AlbumnName}/>
       </div>
 
     )

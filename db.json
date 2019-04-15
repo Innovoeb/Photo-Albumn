@@ -3,46 +3,63 @@
 
       {
         "name": "Kimberly Johansson",
-        "year-released": "",
-        "img": "https://66.media.tumblr.com/5ee22df8de34b7a07b676c0427503a01/tumblr_pnhtacIkd81qzxiau_1280.jpg",
+        "img": "https://66.media.tumblr.com/a2e4c8a85dc220c503c0d336d50cffb0/tumblr_p6vm1niclU1qgnkkbo1_500.jpg",
         "id": 1,
-        "gallery":{
-          "pic1": "https://66.media.tumblr.com/2cca445b43527c72bf15d70018655cc6/tumblr_pis5ti3rLl1qfszqg_500.jpg",
-          "pic2": "",
-          "pic3": ""
+        "gallery": {
+          "pic1": "https://66.media.tumblr.com/5ee22df8de34b7a07b676c0427503a01/tumblr_pnhtacIkd81qzxiau_1280.jpg",
+          "pic2": "https://66.media.tumblr.com/4150a9e15d13e07feb4f205bd4910669/tumblr_po03vn0Qqm1qfszqg_500.jpg",
+          "pic3": "https://66.media.tumblr.com/2cca445b43527c72bf15d70018655cc6/tumblr_pis5ti3rLl1qfszqg_500.jpg"
         }
-      }
-
+      },
       {
         "name": "Selenaxo",
-        "year-released": "",
-        "img": "https://scontent-iad3-1.cdninstagram.com/vp/1cb4fad641f8790526e1c9bfc4e24e09/5D2F5350/t51.2885-15/e35/54511429_727490921014976_1560863081553390340_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com",
-        "id": 2
-      }
-
+        "img": "https://i.pinimg.com/originals/f6/c7/aa/f6c7aa5cb656b3b87200c0031a702017.jpg",
+        "id": 2,
+        "gallery": {
+          "pic1": "https://scontent-iad3-1.cdninstagram.com/vp/1cb4fad641f8790526e1c9bfc4e24e09/5D2F5350/t51.2885-15/e35/54511429_727490921014976_1560863081553390340_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com",
+          "pic2": "https://scontent-vie1-1.cdninstagram.com/vp/57aa328729d97de7f686926e3b2bc551/5D090239/t51.2885-15/e35/49447762_237050977047693_6516220040038058648_n.jpg?_nc_ht=scontent-vie1-1.cdninstagram.com&se=7&ig_cache_key=MTk0NzU0Njc0MTM4OTc1NzEwOA%3D%3D.2",
+          "pic3": "https://scontent-iad3-1.cdninstagram.com/vp/fe3bccb1030362074f41439d37f9faa1/5D42BC5A/t51.2885-15/e35/54511445_2585931371480082_1863439052768677930_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com"
+        }
+      },
       {
         "name": "Carmen King",
-        "year-released": "",
         "img": "https://scontent-sjc3-1.cdninstagram.com/vp/29fe730781044bb5d74fd8bffd866ebb/5D2D7D5C/t51.2885-15/e35/50506554_384022188830399_280661839992286682_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&se=7",
-        "id": 3
-      }
+        "id": 3,
+        "gallery": {
+          "pic1": "https://scontent-sjc3-1.cdninstagram.com/vp/a2f80e8ebe8bd02c3f47a53f63abe68d/5D385620/t51.2885-15/e35/44745906_277147399471886_2863257671283012500_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
+          "pic2": "https://scontent-sjc3-1.cdninstagram.com/vp/c7de91f8a540d41a69d443ffd0ed791b/5D4E25E9/t51.2885-15/e35/29737841_1021655334667034_1200614337585086464_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
+          "pic3": "https://scontent-sjc3-1.cdninstagram.com/vp/4c7f74305d226e93f06158ced7bdaadb/5D30A7A0/t51.2885-15/e35/53595442_2163229763798412_5336069505131613159_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com"
+        }
+      },
       {
-        "name": "619LingLing",
-        "year-released": "",
-        "img": "https://scontent-sjc3-1.cdninstagram.com/vp/21134bc35bf7a7895043e8c5d604a355/5D4ADC29/t51.2885-15/e35/50515166_300609033936636_4569688718491666279_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
-        "id": 4
-      }
+        "name": "Paige Ashli",
+        "img": "https://scontent-sjc3-1.cdninstagram.com/vp/5e9fe467c76eaa3a58a1caf7833aecf0/5D381346/t51.2885-15/e35/47221510_348873472610285_7984324712708679149_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
+        "id": 4,
+        "gallery": {
+          "pic1": "https://scontent-sjc3-1.cdninstagram.com/vp/21134bc35bf7a7895043e8c5d604a355/5D4ADC29/t51.2885-15/e35/50515166_300609033936636_4569688718491666279_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
+          "pic2": "https://scontent-sjc3-1.cdninstagram.com/vp/a35b814a4a1bae5e733a2bdcdf30c700/5D317F4F/t51.2885-15/e35/47581594_2464317756918649_8982049911208585064_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
+          "pic3": "https://scontent-sjc3-1.cdninstagram.com/vp/68aef94247e155e92ef649530fb08462/5D35787C/t51.2885-15/e35/54247455_1034377030098457_1724046790331899378_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com"
+        }
+      },
       {
         "name": "jada-amor",
-        "year-released": "",
-        "img": "https://scontent-iad3-1.cdninstagram.com/vp/8dfad3ef0528e05ff47c33764a296589/5D369F64/t51.2885-15/e35/56194268_852281815111325_1874222346428368394_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com",
-        "id": 5
-      }
+        "img": "https://scontent-sjc3-1.cdninstagram.com/vp/01a496acd4d1077b3d286651fea34842/5D408B04/t51.2885-15/e35/54463826_363588810910589_5658240653429741468_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
+        "id": 5,
+        "gallery": {
+          "pic1": "https://scontent-iad3-1.cdninstagram.com/vp/8dfad3ef0528e05ff47c33764a296589/5D369F64/t51.2885-15/e35/56194268_852281815111325_1874222346428368394_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com",
+          "pic2": "https://scontent-sjc3-1.cdninstagram.com/vp/c882d3e591bd1e868d9ddfe413be4038/5D3B2F50/t51.2885-15/e35/54513223_155395458819369_9079282097407447203_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
+          "pic3": "https://scontent-sjc3-1.cdninstagram.com/vp/1d49b1c6f72605ffbcda317598f973a4/5D3B7C41/t51.2885-15/e35/54277585_271349810452172_5421162646066781629_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com"
+        }
+      },
       {
         "name": "brittney renner",
-        "year-released": "",
         "img": "https://scontent-sjc3-1.cdninstagram.com/vp/cfad111950bea94c8b52872455f75903/5D36FBE5/t51.2885-15/e35/52845393_124293365308435_4071261470854530485_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
-        "id": 6
+        "id": 6,
+        "gallery": {
+          "pic1": "https://scontent-sjc3-1.cdninstagram.com/vp/ccb22ad256a88f81d058a737a1305fe7/5D3C4BD6/t51.2885-15/e35/54513607_773347123046786_5743124506194563981_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
+          "pic2": "https://scontent-sjc3-1.cdninstagram.com/vp/4670a04dc13203b8f1b00bd5fb8843ff/5D4A286B/t51.2885-15/e35/54513888_2235967660053993_5177309100864496579_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com",
+          "pic3": "https://scontent-sjc3-1.cdninstagram.com/vp/19c1b44557ff3989878b6b951f96ddc7/5D3A0BD6/t51.2885-15/e35/42607282_2286336388047595_1811394315125067212_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com"
+        }
       }
   ]
 
