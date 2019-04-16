@@ -16,7 +16,7 @@ class AlbumnHome extends Component {
 
   componentDidMount() {
     axios.get('http://localhost:3001/albums').then(resp => {
-      {console.log(resp.data)}
+
 
       this.setState({
         albums: resp.data
@@ -41,15 +41,15 @@ class AlbumnHome extends Component {
 
         <div id="albumns-render">
           {this.state.albums.map(album =>(
-            <Link to={`/albumn:${album.id}`}><div id={album.id} className="albums">
-              <img src={album.img} />
+            <Link key={`albumn-home ${album.id}`} to={`/albumn/${album.id}`}><div id={album.id} className="albums">
+              <img alt={album.name} src={album.img} />
               <p>{album.name}</p>
             </div>
             </Link>
           ))}
         </div>
 
-        // <Route path="/albumn:id" exact component={AlbumnName}/>
+
       </div>
 
     )

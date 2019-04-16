@@ -8,29 +8,42 @@ class AlbumnName extends Component {
 
   state = {
     albums: [],
+    items: [],
     name: "",
-    gallery: "",
+    gallery: []
   }
 
   componentDidMount() {
     axios.get('http://localhost:3001/albums').then(resp => {
-      {console.log(resp.data)}
-
-      // check my url for a parameter called id & put into a variable called id
-      const id = this.props.match.params.id
-      // go through the data and find a person that matches my variable named id
-      const user = this.state.albums.find(albumn => albumn.id == id)
       this.setState({
         // gallery: user.gallery,
         albums: resp.data,
         // name: user.name,
 
       })
+    })
 
-
+      // coming from albums home
+      const id = this.props.match.params.id
+    axios.get(`http://localhost:3001/albums/${id}?_embed=pictures`).then(resp => {
+      this.setState({
+        gallery: resp.data.pictures,
+        name: resp.data.name
+      })
     })
   }
-
+  // every updated url
+  componentWillReceiveProps(newProps){
+    if (newProps.match.params.id !== this.props.match.params.id) {
+      const newId = newProps.match.params.id
+      axios.get(`http://localhost:3001/albums/${newId}?_embed=pictures`).then(resp => {
+        this.setState({
+          gallery: resp.data.pictures,
+          name: resp.data.name
+        })
+      })
+    }
+   }
 
 
 
@@ -44,7 +57,7 @@ class AlbumnName extends Component {
       <div id="albumnspage">
 
         <div id="albumns-view-header">
-          <h1 id="albumnname">Albumn Name</h1>
+          <h1 id="albumnname">{this.state.name}</h1>
         </div>
 
         <div className='center'>
@@ -52,7 +65,7 @@ class AlbumnName extends Component {
 
         <div id="sidebar">
         {this.state.albums.map(albumn =>(
-          <p className="sidebar-links">{albumn.name}</p>
+          <Link to={`/albumn/${albumn.id}`}><p className="sidebar-links">{albumn.name}</p></Link>
         ))}
         </div>
 
@@ -61,9 +74,9 @@ class AlbumnName extends Component {
         <div id="render-2">
 
 
-          {this.state.albums.map(albumn =>(
+          {this.state.gallery.map(albumn =>(
             <div>
-              <img src={albumn.gallery.pic1} />
+              <Link to={`/img/${albumn.id}`}><img src={albumn.url} /></Link>
             </div>
           ))}
 

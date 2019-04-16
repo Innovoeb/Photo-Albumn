@@ -6,11 +6,12 @@ import {Route} from "react-router-dom";
 class PicName extends Component {
 
   state = {
-    albums: []
+    albums:{}
   }
 
   componentDidMount() {
-    axios.get('http://localhost:3001/albums').then(resp => {
+    const id = this.props.match.params.id
+    axios.get(`http://localhost:3001/pictures/${id}`).then(resp => {
       {console.log(resp.data)}
 
       this.setState({
@@ -32,11 +33,7 @@ class PicName extends Component {
         <div id="render3">
 
           <button id="go-left" className="direction-buttons">&#8678;</button>
-          {this.state.albums.map(albumn => (
-
-            <img id="large" src={albumn.gallery.pic1} />
-
-          ))}
+          <img src={this.state.albums.url}/>
 
           <button id="go-right" className="direction-buttons">&#8680;</button>
         </div>
