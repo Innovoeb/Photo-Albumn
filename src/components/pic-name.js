@@ -32,10 +32,9 @@ class PicName extends Component {
 
         <div id="render3">
 
-          <button id="go-left" className="direction-buttons">&#8678;</button>
-          <img src={this.state.albums.url}/>
 
-          <button id="go-right" className="direction-buttons">&#8680;</button>
+          <img id="large" src={this.state.albums.url}/>
+          
         </div>
 
       </div>
